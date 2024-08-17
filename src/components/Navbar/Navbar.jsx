@@ -1,6 +1,6 @@
 import React from 'react'
 import { Typography, AppBar, Toolbar, IconButton, Badge, MenuItem, Menu } from '@mui/material'
-import { ShoppingBag } from '@mui/icons-material'
+import { ShoppingCart } from '@mui/icons-material'
 import logo from '../../assets/favicon.ico'
 
 const drawerWidth = 0;
@@ -25,7 +25,7 @@ const Navbar = () => {
                 <div button>
                     <IconButton aria-label="Show cart items" color="inherit">
                         <Badge badgeContent={2} color="secondary" >
-                            <ShoppingBag />
+                            <ShoppingCart />
                         </Badge>
                     </IconButton>
                 </div>
